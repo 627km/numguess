@@ -1,8 +1,12 @@
 from random import randint
 
 username = input("Enter your name > ")
-print(username, "님 안녕하세요! 지금부터 추측게임을 시작할게요!")
+print(username, "Welcome! We start game! Guess number!")
 
 # Generate answer
 answer = randint(1, 100)
 print(answer)
+
+user_answer = int(input("Enter your answer > "))
+
+print(user_answer)
