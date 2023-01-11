@@ -4,7 +4,7 @@ from time import sleep
 username = input("Enter your name > ")
 print(username, "Welcome! We start game! Guess number!")
 chance = 5
-# Generate answer
+# Generate answer       
 answer = randint(1, 100)
 print(answer)
 
@@ -29,4 +29,3 @@ for i in range(1,chance+1):
     elif user_answer < answer:
         print(f'Kepp going ~, that was too low!')
         print(f'remain chance : {chance - i}')
-
